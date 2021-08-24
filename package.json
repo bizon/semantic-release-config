@@ -30,6 +30,9 @@
       "unicorn/prefer-module": "off"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "release": {
     "extends": "./index.js"
   }
