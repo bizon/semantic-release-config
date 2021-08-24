@@ -1,0 +1,36 @@
+{
+  "name": "@bizon/semantic-release-config",
+  "version": "1.0.0-rc.1",
+  "description": "Semantic Release configuration for Bizon repositories",
+  "repository": "https://github.com/bizon/semantic-release",
+  "author": "Bertrand Marron <bertrand.marron@gmail.com>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@semantic-release/git": "^9.0.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.4.6",
+    "xo": "^0.44.0"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2,
+    "rules": {
+      "unicorn/prefer-module": "off"
+    }
+  },
+  "release": {
+    "extends": "./index.js"
+  }
+}
