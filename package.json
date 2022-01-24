@@ -20,7 +20,7 @@
     "@semantic-release/git": "^10.0.0"
   },
   "devDependencies": {
-    "semantic-release": "^18.0.0",
+    "semantic-release": "^19.0.2",
     "xo": "^0.47.0"
   },
   "xo": {
