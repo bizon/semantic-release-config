@@ -10,7 +10,7 @@
   ],
   "license": "MIT",
   "engines": {
-    "node": "14.x"
+    "node": ">=14"
   },
   "scripts": {
     "build": "tsc",
@@ -20,8 +20,8 @@
     "@semantic-release/git": "^10.0.0"
   },
   "devDependencies": {
-    "semantic-release": "^19.0.2",
-    "xo": "^0.48.0"
+    "semantic-release": "^19.0.3",
+    "xo": "^0.50.0"
   },
   "xo": {
     "semicolon": false,
