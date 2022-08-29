@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "semantic-release": "^19.0.3",
-    "xo": "^0.50.0"
+    "xo": "^0.52.2"
   },
   "xo": {
     "semicolon": false,
