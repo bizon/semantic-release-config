@@ -20,15 +20,14 @@
     "@semantic-release/git": "^10.0.0"
   },
   "devDependencies": {
+    "eslint-config-xo-bizon": "^1.1.1",
     "semantic-release": "^19.0.3",
-    "xo": "^0.50.0"
+    "xo": "^0.52.3"
   },
   "xo": {
+    "extends": "xo-bizon",
     "semicolon": false,
-    "space": 2,
-    "rules": {
-      "unicorn/prefer-module": "off"
-    }
+    "space": 2
   },
   "publishConfig": {
     "access": "public"
