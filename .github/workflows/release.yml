@@ -1,9 +1,6 @@
 name: Release
 
-on:
-  push:
-    branches:
-      - master
+on: [workflow_dispatch]
 
 jobs:
   release:
@@ -17,9 +14,9 @@ jobs:
           token: ${{ secrets.BOT_GITHUB_TOKEN_PUBLIC }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3.4.1
+        uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 16
           cache: yarn
 
       - name: Install dependencies
