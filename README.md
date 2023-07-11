@@ -15,13 +15,12 @@
 ## Install
 
 ```
-$ yarn add --dev @bizon/semantic-release-config
+$ pnpm add -D @bizon/semantic-release-config
 ```
 
 ## License
 
 MIT © [Bizon](https://github.com/bizon)
-
 
 ## Miscellaneous
 
