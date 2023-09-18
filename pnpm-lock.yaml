@@ -12,8 +12,8 @@ dependencies:
     specifier: ^10.0.1
     version: 10.0.1(semantic-release@21.0.9)
   '@semantic-release/github':
-    specifier: ^9.0.4
-    version: 9.0.4(semantic-release@21.0.9)
+    specifier: ^9.0.6
+    version: 9.0.6(semantic-release@21.0.9)
   '@semantic-release/npm':
     specifier: ^10.0.5
     version: 10.0.5(semantic-release@21.0.9)
@@ -342,8 +342,8 @@ packages:
       - supports-color
     dev: false
 
-  /@semantic-release/github@9.0.4(semantic-release@21.0.9):
-    resolution: {integrity: sha512-kQCGFAsBErvCR6hzNuzu63cj4erQN2krm9zQlg8vl4j5X0mL0d/Ras0wmL5Gkr1TuSS2lweME7M4J5zvtDDDSA==}
+  /@semantic-release/github@9.0.6(semantic-release@21.0.9):
+    resolution: {integrity: sha512-GBGt9c3c2UdSvso4jcyQQSUpZA9hbfHqGQerZKN9WvVzCIkaBy8xkhOyiFVX08LjRHHT/H221SJNBLtuihX5iw==}
     engines: {node: '>=18'}
     peerDependencies:
       semantic-release: '>=20.1.0'
@@ -353,7 +353,7 @@ packages:
       '@octokit/plugin-retry': 6.0.0(@octokit/core@5.0.0)
       '@octokit/plugin-throttling': 7.0.0(@octokit/core@5.0.0)
       '@semantic-release/error': 4.0.0
-      aggregate-error: 4.0.1
+      aggregate-error: 5.0.0
       debug: 4.3.4
       dir-glob: 3.0.1
       globby: 13.2.2
@@ -749,6 +749,13 @@ packages:
       clean-stack: 4.2.0
       indent-string: 5.0.0
 
+  /aggregate-error@5.0.0:
+    resolution: {integrity: sha512-gOsf2YwSlleG6IjRYG2A7k0HmBMEo6qVNk9Bp/EaLgAJT5ngH6PXbqa4ItvnEwCm/velL5jAnQgsHsWnjhGmvw==}
+    engines: {node: '>=18'}
+    dependencies:
+      clean-stack: 5.2.0
+      indent-string: 5.0.0
+
   /ajv-keywords@3.5.2(ajv@6.12.6):
     resolution: {integrity: sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==}
     peerDependencies:
@@ -1030,6 +1037,12 @@ packages:
   /clean-stack@4.2.0:
     resolution: {integrity: sha512-LYv6XPxoyODi36Dp976riBtSY27VmFo+MKqEU9QCCWyTrdEPDog+RWA7xQWHi6Vbp61j5c4cdzzX1NidnwtUWg==}
     engines: {node: '>=12'}
+    dependencies:
+      escape-string-regexp: 5.0.0
+
+  /clean-stack@5.2.0:
+    resolution: {integrity: sha512-TyUIUJgdFnCISzG5zu3291TAsE77ddchd0bepon1VVQrKLGKFED4iXFEDQ24mIPdPBbyE16PK3F8MYE1CmcBEQ==}
+    engines: {node: '>=14.16'}
     dependencies:
       escape-string-regexp: 5.0.0
 
@@ -3638,7 +3651,7 @@ packages:
     dependencies:
       '@semantic-release/commit-analyzer': 10.0.1(semantic-release@21.0.9)
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 9.0.4(semantic-release@21.0.9)
+      '@semantic-release/github': 9.0.6(semantic-release@21.0.9)
       '@semantic-release/npm': 10.0.5(semantic-release@21.0.9)
       '@semantic-release/release-notes-generator': 11.0.4(semantic-release@21.0.9)
       aggregate-error: 4.0.1
