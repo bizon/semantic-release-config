@@ -1,6 +1,6 @@
 {
   "name": "@bizon/semantic-release-config",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "Semantic Release configuration for Bizon repositories",
   "repository": "https://github.com/bizon/semantic-release-config",
   "author": "Bertrand Marron <bertrand.marron@gmail.com>",
