@@ -27,7 +27,7 @@
   "devDependencies": {
     "eslint-config-xo-bizon": "^4.2.0",
     "semantic-release": "^25.0.2",
-    "xo": "^1.2.3"
+    "xo": "^2.0.2"
   },
   "publishConfig": {
     "access": "public"
